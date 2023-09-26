@@ -1,0 +1,19 @@
+{
+  "name": "demo-node-app",
+  "version": "1.0.0",
+  "description": "A Node.js/ExpressJs simple registration form with basic validation with data persistence to MongoDB database",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
